@@ -1,7 +1,7 @@
 """
 MIT License
 
-Copyright (c) 2021-2022 MShawon
+Copyright (c) 2021-2022 matheeshapathirana
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -60,7 +60,7 @@ print(bcolors.OKGREEN + """
 """ + bcolors.ENDC)
 
 print(bcolors.OKCYAN + """
-[ GitHub : https://github.com/MShawon/YouTube-Viewer ]
+[ GitHub : https://github.com/matheeshapathirana/YouTube-Viewer ]
 """ + bcolors.ENDC)
 
 

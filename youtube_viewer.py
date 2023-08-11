@@ -1,7 +1,7 @@
 """
 MIT License
 
-Copyright (c) 2021-2022 MShawon
+Copyright (c) 2021-2022 matheeshapathirana
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -62,7 +62,7 @@ Yb  dP  dP"Yb  88   88 888888 88   88 88""Yb 888888
 """ + bcolors.ENDC)
 
 print(bcolors.OKCYAN + """
-           [ GitHub : https://github.com/MShawon/YouTube-Viewer ]
+           [ GitHub : https://github.com/matheeshapathirana/YouTube-Viewer ]
 """ + bcolors.ENDC)
 
 print(bcolors.WARNING + f"""
@@ -158,7 +158,7 @@ def clean_exe_temp(folder):
 
 
 def update_chrome_version():
-    link = 'https://gist.githubusercontent.com/MShawon/29e185038f22e6ac5eac822a1e422e9d/raw/versions.txt'
+    link = 'https://gist.githubusercontent.com/matheeshapathirana/29e185038f22e6ac5eac822a1e422e9d/raw/versions.txt'
 
     output = requests.get(link, timeout=60).text
     chrome_versions = output.split('\n')
@@ -167,7 +167,7 @@ def update_chrome_version():
 
 
 def check_update():
-    api_url = 'https://api.github.com/repos/MShawon/YouTube-Viewer/releases/latest'
+    api_url = 'https://api.github.com/repos/matheeshapathirana/YouTube-Viewer/releases/latest'
     response = requests.get(api_url, timeout=30)
 
     RELEASE_VERSION = response.json()['tag_name']
